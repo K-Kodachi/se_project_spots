@@ -2,7 +2,6 @@
   display: flex;
   padding: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-
 }
 
 .profile__avatar {
@@ -11,7 +10,6 @@
   margin-right: 20px;
   border-radius: 8px;
   object-fit: cover;
-
 }
 
 .profile__column {
@@ -30,9 +28,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
-
 }
-
 
 .profile__description {
   margin: 0;
@@ -46,7 +42,6 @@
   -webkit-box-orient: vertical;
   max-width: 420px;
   opacity: 0.7;
-
 }
 .profile__edit-btn {
   margin-top: auto;
@@ -63,36 +58,33 @@
   cursor: pointer;
 }
 
-  .profile__edit-btn:hover {
-    opacity: 0.7;
-
-  }
-
-.profile__add-btn {
-  display: flex;
-margin-left: auto;
-width: 149px;
-height: 52px;
-border-radius: 8px;
-border: none;
-background-color: #212121;
-font-family: "Poppins", Arial, Helvetica, sans-serif;
-font-weight: 500px;
-font-size: 16px;
-line-height: 100%;
-color: #fcf5e5;
-align-self: flex-end;
-gap: 8px;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-
-}
-
-.profile__add-btn:hover  {
+.profile__edit-btn:hover {
   opacity: 0.7;
 }
 
+.profile__add-btn {
+  display: flex;
+  margin-left: auto;
+  width: 149px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  background-color: #212121;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fcf5e5;
+  align-self: flex-end;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile__add-btn:hover {
+  opacity: 0.7;
+}
 
 @media screen and (max-width: 627px) {
   .profile {
@@ -101,24 +93,21 @@ cursor: pointer;
     align-items: center;
     text-align: center;
     padding-top: 20px;
-
   }
 
   .profile__avatar {
     margin: 0 0 12px;
     height: 80px;
     width: 80px;
-
   }
 
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
     max-width: 288px;
-
   }
 
-  .profile__description{
+  .profile__description {
     margin: 0 0 32px;
     font-size: 16px;
     max-width: 288px;
@@ -127,13 +116,10 @@ cursor: pointer;
   .profile__column {
     display: flex;
     margin: 0 0 20px;
-
   }
 
   .profile__add-btn {
     margin: 0;
     width: 100%;
-
   }
 }
-
