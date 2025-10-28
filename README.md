@@ -30,4 +30,4 @@ Responsive Design
 
 This page is deployed to GitHub Pages.
 
--Deployment Link:
+-[Deployment Link](https://k-kodachi.github.io/se_project_spots)
