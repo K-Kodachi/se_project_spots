@@ -31,3 +31,8 @@ Responsive Design
 This page is deployed to GitHub Pages.
 
 -[Deployment Link](https://k-kodachi.github.io/se_project_spots)
+
+## Project Pitch Video
+
+Check out [this video](https://drive.google.com/file/d/1VAM84LOb1d9fPjmU6y4Y61gp7EGXx3Oi/view?usp=drive_link), where I describe my
+project and some challenges I faced while building it.
